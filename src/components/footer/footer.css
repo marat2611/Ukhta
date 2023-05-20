@@ -1,0 +1,48 @@
+/********** Футер **********/
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: auto;
+}
+
+.fooetr-container {
+    align-items: center;
+    flex-direction: column;
+}
+
+.fooetr-container img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 85px;
+    width: 270px;
+}
+
+.footrt-menu-list {
+    list-style: none;
+    gap: 55px;
+}
+
+.footrt-menu-list a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: var(--font-weight-800);
+    font-size: var(--font-size-20);
+}
+
+
+.footer-feedback {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    list-style: none;
+    gap: 150px;
+}
+
+.footer-feedback a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--font-size-20);
+}
+
+/********** Футер - конец **********/
+

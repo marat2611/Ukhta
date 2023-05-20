@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,400&family=Montserrat:wght@400;500;700&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/****Прибиваем футер****/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: #F5F5F5; */
+}
+main {
+    flex: 1 0 auto;
+    /* background-color: #F5F5F5; */
+    height: auto;
+}
+
+footer {
+    flex: 0 0 auto;
+    /* background-color: var(--color-black); */
+}
+/* Закончили прибивать*/
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.d-grid {
+    display: grid;
+}
+
+:root {
+    --color-black: #000;
+    --color-white: #FFFFFF;
+
+    --font-size-18: 18px; 
+    --font-size-20: 20px; 
+
+    --font-weight-800: 800;
+}
+
+.main-banner {
+    /* height: 600px; */
+    /* background: url(images/banner-photo.jpeg); */
+    background-size: 100%;
+    background-position-y: 33%;
+    overflow: hidden;
+}
+
+.main-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/********** Главное **********/
+
+.main-content {
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.main-content-h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    border-bottom: 1px solid #989898;
+}
+
+
+h1 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.weather {
+    justify-content: center;
+}
+
+.main-content-info {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+}
+
+.main-content-info__modul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main-content-info__modul div {
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main-content-info p {
+    margin-bottom: 30px;
+}
+
+.main-content-info_modul h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size-18);
+}
+
+/********** Главное - конец **********/
+
+/* О городе- текст */
+
+.about-city-h1 {
+    margin-bottom: 50px;
+}
+
+.about-city-text {
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+
+.about-city-text p {
+    margin-bottom: 30px;
+}
+
+.about-city-text img {
+    width: 50%;
+}
+
+.about-city-text img:hover {
+    transform: scale(2,2);
+}
+
+/* Достопримечательности */
+
+.attractions {
+    margin-top: 75px;
+}
+
+.attractions h2 {
+    margin-bottom: 50px;
+}
+
+.attractions img {
+    width: 50%;
+}
+
+.attractions p {
+    line-height: 30px;
+}
+
+.attractions div {
+    margin-bottom: 30px;
+    gap: 30px;
+}
