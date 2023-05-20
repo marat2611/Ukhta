@@ -74,8 +74,6 @@ ul {
 }
 
 .main-banner {
-    /* height: 600px; */
-    /* background: url(images/banner-photo.jpeg); */
     background-size: 100%;
     background-position-y: 33%;
     overflow: hidden;
@@ -115,10 +113,11 @@ h1 {
 
 .main-content-info {
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 35px;
+    grid-gap: 30px;
 }
 
 .main-content-info__modul {
+    width: 262px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
