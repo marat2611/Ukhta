@@ -25,7 +25,7 @@ function Home () {
                     
                 </div>
                 <Search />
-                <div className="main-content-info container d-grid">
+                <div className="main-content-info container d-flex flex-wrap">
                     <div className="main-content-info__modul">
                         <div className="d-flex flex-sb">
                             <img src={icon_photo_album} alt="" />

@@ -113,16 +113,16 @@ h1 {
 }
 
 .main-content-info {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
+    gap: 30px;
 }
 
 .main-content-info__modul {
-    width: 262px;
+    width: 23%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 40px;
+    
 }
 
 .main-content-info__modul div {
