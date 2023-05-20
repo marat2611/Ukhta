@@ -15,7 +15,7 @@ function Fooeter () {
                     <li><NavLink to="/about-city">О  городе</NavLink></li>
                     <li><NavLink to="/attractions">Достопримечательности</NavLink></li>
                     <li><a href="#!">Фото</a></li>
-                    <li><NavLink to="/blogs">Блоги</NavLink></li>
+                    <li><NavLink to="#!">Блоги</NavLink></li>
                     <li><a href="#!">Форумы</a></li>
                 </ul>
                 <ul className="footer-feedback d-flex">

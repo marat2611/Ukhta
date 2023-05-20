@@ -66,6 +66,7 @@ ul {
 :root {
     --color-black: #000;
     --color-white: #FFFFFF;
+    --color-gray: #989898;
 
     --font-size-18: 18px; 
     --font-size-20: 20px; 

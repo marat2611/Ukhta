@@ -4,11 +4,13 @@ import img_attractions_vechnyiogon from './../images/03-img-attractions-vechnyio
 import img_attractions_detskiypark from './../images/03-img-detskiypark.jpg';
 import img_attractions_detskiypark2 from './../images/03-img-detskiypark2.jpg';
 import img_attractions_hram from './../images/03-img-attractions-hram.jpg';
+import Search from '../components/search/search';
 
 function Attractions () {
     return (
         <main>
             <h1 className="container">Достопримечательности в Ухте</h1>
+            <Search />
             <section className="attractions container">
                 <h2>1. Ухтинский историко-краеведческий музей</h2>
                 <div className="d-flex">

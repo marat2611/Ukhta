@@ -11,6 +11,7 @@ import icon_souvenirs from './../images/01-icon-souvenirs.png'
 import img_suvernirs from './../images/01-img-suvernirs.jpg'
 import icon_nature from './../images/01-icon-nature.png'
 import img_nature from './../images/01-img-nature.jpg'
+import Search from '../components/search/search'
 
 function Home () {
     return (
@@ -21,7 +22,9 @@ function Home () {
             <section className="main-content">
                 <div className="main-content-h1 container d-flex">
                     <h1>Город Ухта!</h1>
+                    
                 </div>
+                <Search />
                 <div className="main-content-info container d-grid">
                     <div className="main-content-info__modul">
                         <div className="d-flex flex-sb">

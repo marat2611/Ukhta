@@ -2,12 +2,15 @@ import img_Fontan from './../images/02-img-Fontan.jpg';
 import img_Tabl from './../images/02-img-Tabl.jpg';
 import img_PervomayskayaSt from './../images/02-img-PervomayskayaSt.jpg'
 import img_Obelisk from './../images/02-img-Obelisk.jpg'
+import Search from '../components/search/search';
 
 const About_city = () => {
     return ( 
         <div className="wrapper">
         <main>
+            
             <h1 className="about-city-h1 container">Информация о городе Ухта</h1>
+            <Search />
             <div className="about-city-text container">
                 <p> <b>Ухта́ (коми Уква)</b>  — город (с 1943) в Республике Коми Российской Федерации, 
                     крупнейший населённый пункт городского округа Ухта. Территория муниципального образования «Город Ухта» расположена в центральной части Республики Коми.

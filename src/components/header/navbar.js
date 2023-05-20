@@ -22,7 +22,7 @@ function Navbar () {
               <NavLink to="/attractions">Достопримечательности</NavLink>  
             </li>
             <li><a href="#!">Фото</a></li>
-            <li><NavLink to="/blogs">Блоги</NavLink></li>
+            <li><NavLink to="#!">Блоги</NavLink></li>
             <li><a href="#!">Форумы</a></li>
           </ul>
         </div>
